@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AFNetworking/AFHTTPSessionManager.h>
 
 @interface ViewController ()
 
@@ -18,6 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"验证");
+    [AFHTTPSessionManager manager];
 }
 
 - (void)didReceiveMemoryWarning {
