@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"验证");
     [AFHTTPSessionManager manager];
+    NSLog(@"aaaaa");
 }
 
 - (void)didReceiveMemoryWarning {
